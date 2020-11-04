@@ -12,7 +12,7 @@ export class CategoriesComponent implements OnInit {
 
   ngOnInit(): void {
     this.categories = this.service.getCategories();
-    console.log(JSON.stringify(this.categories));
+   // console.log(JSON.stringify(this.categories));
   }
 
 }
