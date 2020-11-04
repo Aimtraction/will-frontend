@@ -1,0 +1,6 @@
+<div *ngIf="category$ | async as categories">
+    <div class="p-grid" >
+        <app-category-card class="p-col-12 p-md-6 p-lg-3" [category]="item" *ngFor="let item of categories"></app-category-card>
+    </div>
+</div>
+
